@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B8B87319F2422800381A82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8B87219F2422800381A82 /* main.m */; };
+		42B8B87619F2422800381A82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8B87519F2422800381A82 /* AppDelegate.m */; };
+		42B8B87919F2422800381A82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8B87819F2422800381A82 /* ViewController.m */; };
+		42B8B87E19F2422800381A82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B8B87D19F2422800381A82 /* Images.xcassets */; };
+		42B8B88D19F2422800381A82 /* UAMovingTopbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8B88C19F2422800381A82 /* UAMovingTopbarTests.m */; };
+		42B8B89719F2426200381A82 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B8B89619F2426200381A82 /* MainWindow.xib */; };
+		42B8B89919F242A400381A82 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B8B89819F242A400381A82 /* ViewController.xib */; };
+		42B8B89B19F242DF00381A82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B8B89A19F242DF00381A82 /* Default-568h@2x.png */; };
+		42B8B8A219F2443400381A82 /* UAMovingBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8B8A119F2443400381A82 /* UAMovingBarViewController.m */; };
+		42B8B8A819F2446900381A82 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8B8A619F2446900381A82 /* CustomCell.m */; };
+		42B8B8A919F2446900381A82 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B8B8A719F2446900381A82 /* CustomCell.xib */; };
+		42B8B8AD19F2449E00381A82 /* CustomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8B8AB19F2449E00381A82 /* CustomHeaderView.m */; };
+		42B8B8AE19F2449E00381A82 /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B8B8AC19F2449E00381A82 /* CustomHeaderView.xib */; };
+		42B8B8B219F2462100381A82 /* TableInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8B8B119F2462100381A82 /* TableInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B8B88719F2422800381A82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B8B86519F2422800381A82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B8B86C19F2422800381A82;
+			remoteInfo = UAMovingTopbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42B8B86D19F2422800381A82 /* UAMovingTopbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UAMovingTopbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B8B87119F2422800381A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B8B87219F2422800381A82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42B8B87419F2422800381A82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42B8B87519F2422800381A82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42B8B87719F2422800381A82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42B8B87819F2422800381A82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42B8B87D19F2422800381A82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42B8B88619F2422800381A82 /* UAMovingTopbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UAMovingTopbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B8B88B19F2422800381A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B8B88C19F2422800381A82 /* UAMovingTopbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UAMovingTopbarTests.m; sourceTree = "<group>"; };
+		42B8B89619F2426200381A82 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		42B8B89819F242A400381A82 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		42B8B89A19F242DF00381A82 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		42B8B8A019F2443400381A82 /* UAMovingBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAMovingBarViewController.h; sourceTree = "<group>"; };
+		42B8B8A119F2443400381A82 /* UAMovingBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAMovingBarViewController.m; sourceTree = "<group>"; };
+		42B8B8A519F2446900381A82 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		42B8B8A619F2446900381A82 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		42B8B8A719F2446900381A82 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		42B8B8AA19F2449E00381A82 /* CustomHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHeaderView.h; sourceTree = "<group>"; };
+		42B8B8AB19F2449E00381A82 /* CustomHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHeaderView.m; sourceTree = "<group>"; };
+		42B8B8AC19F2449E00381A82 /* CustomHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
+		42B8B8B019F2462100381A82 /* TableInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableInfo.h; sourceTree = "<group>"; };
+		42B8B8B119F2462100381A82 /* TableInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B8B86A19F2422800381A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B8B88319F2422800381A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42B8B86419F2422800381A82 = {
+			isa = PBXGroup;
+			children = (
+				42B8B89A19F242DF00381A82 /* Default-568h@2x.png */,
+				42B8B86F19F2422800381A82 /* UAMovingTopbar */,
+				42B8B88919F2422800381A82 /* UAMovingTopbarTests */,
+				42B8B86E19F2422800381A82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42B8B86E19F2422800381A82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42B8B86D19F2422800381A82 /* UAMovingTopbar.app */,
+				42B8B88619F2422800381A82 /* UAMovingTopbarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42B8B86F19F2422800381A82 /* UAMovingTopbar */ = {
+			isa = PBXGroup;
+			children = (
+				42B8B8AF19F2461500381A82 /* Model Class */,
+				42B8B8A419F2446900381A82 /* CustomCell */,
+				42B8B8A319F2445E00381A82 /* CustomHeaderView */,
+				42B8B89F19F2443400381A82 /* UAMovingTopBar */,
+				42B8B87419F2422800381A82 /* AppDelegate.h */,
+				42B8B87519F2422800381A82 /* AppDelegate.m */,
+				42B8B87719F2422800381A82 /* ViewController.h */,
+				42B8B87819F2422800381A82 /* ViewController.m */,
+				42B8B89819F242A400381A82 /* ViewController.xib */,
+				42B8B87D19F2422800381A82 /* Images.xcassets */,
+				42B8B87019F2422800381A82 /* Supporting Files */,
+			);
+			path = UAMovingTopbar;
+			sourceTree = "<group>";
+		};
+		42B8B87019F2422800381A82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42B8B89619F2426200381A82 /* MainWindow.xib */,
+				42B8B87119F2422800381A82 /* Info.plist */,
+				42B8B87219F2422800381A82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42B8B88919F2422800381A82 /* UAMovingTopbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				42B8B88C19F2422800381A82 /* UAMovingTopbarTests.m */,
+				42B8B88A19F2422800381A82 /* Supporting Files */,
+			);
+			path = UAMovingTopbarTests;
+			sourceTree = "<group>";
+		};
+		42B8B88A19F2422800381A82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42B8B88B19F2422800381A82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42B8B89F19F2443400381A82 /* UAMovingTopBar */ = {
+			isa = PBXGroup;
+			children = (
+				42B8B8A019F2443400381A82 /* UAMovingBarViewController.h */,
+				42B8B8A119F2443400381A82 /* UAMovingBarViewController.m */,
+			);
+			path = UAMovingTopBar;
+			sourceTree = "<group>";
+		};
+		42B8B8A319F2445E00381A82 /* CustomHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				42B8B8AA19F2449E00381A82 /* CustomHeaderView.h */,
+				42B8B8AB19F2449E00381A82 /* CustomHeaderView.m */,
+				42B8B8AC19F2449E00381A82 /* CustomHeaderView.xib */,
+			);
+			path = CustomHeaderView;
+			sourceTree = "<group>";
+		};
+		42B8B8A419F2446900381A82 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				42B8B8A519F2446900381A82 /* CustomCell.h */,
+				42B8B8A619F2446900381A82 /* CustomCell.m */,
+				42B8B8A719F2446900381A82 /* CustomCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		42B8B8AF19F2461500381A82 /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				42B8B8B019F2462100381A82 /* TableInfo.h */,
+				42B8B8B119F2462100381A82 /* TableInfo.m */,
+			);
+			path = "Model Class";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42B8B86C19F2422800381A82 /* UAMovingTopbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B8B89019F2422800381A82 /* Build configuration list for PBXNativeTarget "UAMovingTopbar" */;
+			buildPhases = (
+				42B8B86919F2422800381A82 /* Sources */,
+				42B8B86A19F2422800381A82 /* Frameworks */,
+				42B8B86B19F2422800381A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UAMovingTopbar;
+			productName = UAMovingTopbar;
+			productReference = 42B8B86D19F2422800381A82 /* UAMovingTopbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42B8B88519F2422800381A82 /* UAMovingTopbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B8B89319F2422800381A82 /* Build configuration list for PBXNativeTarget "UAMovingTopbarTests" */;
+			buildPhases = (
+				42B8B88219F2422800381A82 /* Sources */,
+				42B8B88319F2422800381A82 /* Frameworks */,
+				42B8B88419F2422800381A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B8B88819F2422800381A82 /* PBXTargetDependency */,
+			);
+			name = UAMovingTopbarTests;
+			productName = UAMovingTopbarTests;
+			productReference = 42B8B88619F2422800381A82 /* UAMovingTopbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42B8B86519F2422800381A82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Urmi;
+				TargetAttributes = {
+					42B8B86C19F2422800381A82 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					42B8B88519F2422800381A82 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 42B8B86C19F2422800381A82;
+					};
+				};
+			};
+			buildConfigurationList = 42B8B86819F2422800381A82 /* Build configuration list for PBXProject "UAMovingTopbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42B8B86419F2422800381A82;
+			productRefGroup = 42B8B86E19F2422800381A82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42B8B86C19F2422800381A82 /* UAMovingTopbar */,
+				42B8B88519F2422800381A82 /* UAMovingTopbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42B8B86B19F2422800381A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B8B8A919F2446900381A82 /* CustomCell.xib in Resources */,
+				42B8B89719F2426200381A82 /* MainWindow.xib in Resources */,
+				42B8B89B19F242DF00381A82 /* Default-568h@2x.png in Resources */,
+				42B8B89919F242A400381A82 /* ViewController.xib in Resources */,
+				42B8B8AE19F2449E00381A82 /* CustomHeaderView.xib in Resources */,
+				42B8B87E19F2422800381A82 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B8B88419F2422800381A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42B8B86919F2422800381A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B8B8AD19F2449E00381A82 /* CustomHeaderView.m in Sources */,
+				42B8B8B219F2462100381A82 /* TableInfo.m in Sources */,
+				42B8B8A219F2443400381A82 /* UAMovingBarViewController.m in Sources */,
+				42B8B87919F2422800381A82 /* ViewController.m in Sources */,
+				42B8B87619F2422800381A82 /* AppDelegate.m in Sources */,
+				42B8B87319F2422800381A82 /* main.m in Sources */,
+				42B8B8A819F2446900381A82 /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B8B88219F2422800381A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B8B88D19F2422800381A82 /* UAMovingTopbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42B8B88819F2422800381A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B8B86C19F2422800381A82 /* UAMovingTopbar */;
+			targetProxy = 42B8B88719F2422800381A82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42B8B88E19F2422800381A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42B8B88F19F2422800381A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42B8B89119F2422800381A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UAMovingTopbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42B8B89219F2422800381A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UAMovingTopbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42B8B89419F2422800381A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UAMovingTopbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UAMovingTopbar.app/UAMovingTopbar";
+			};
+			name = Debug;
+		};
+		42B8B89519F2422800381A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UAMovingTopbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UAMovingTopbar.app/UAMovingTopbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42B8B86819F2422800381A82 /* Build configuration list for PBXProject "UAMovingTopbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B8B88E19F2422800381A82 /* Debug */,
+				42B8B88F19F2422800381A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B8B89019F2422800381A82 /* Build configuration list for PBXNativeTarget "UAMovingTopbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B8B89119F2422800381A82 /* Debug */,
+				42B8B89219F2422800381A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42B8B89319F2422800381A82 /* Build configuration list for PBXNativeTarget "UAMovingTopbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B8B89419F2422800381A82 /* Debug */,
+				42B8B89519F2422800381A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42B8B86519F2422800381A82 /* Project object */;
+}
